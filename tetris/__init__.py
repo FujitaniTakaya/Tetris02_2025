@@ -1,0 +1,3 @@
+"""
+Tetris package initialization.
+"""
