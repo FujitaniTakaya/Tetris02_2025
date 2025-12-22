@@ -3,7 +3,12 @@ Test script to verify game logic without GUI.
 """
 
 import sys
-sys.path.insert(0, '/home/runner/work/Tetris02_2025/Tetris02_2025')
+import os
+
+# Add parent directory to path if needed (for running from any location)
+current_dir = os.path.dirname(os.path.abspath(__file__))
+if current_dir not in sys.path:
+    sys.path.insert(0, current_dir)
 
 from tetris.models.game import Game
 from tetris.models.tetromino import Tetromino

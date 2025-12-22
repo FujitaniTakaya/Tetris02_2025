@@ -11,7 +11,7 @@ from config import (
     WINDOW_WIDTH, WINDOW_HEIGHT, BLOCK_SIZE, GRID_WIDTH, GRID_HEIGHT,
     BOARD_X, BOARD_Y, COLOR_BLACK, COLOR_WHITE, COLOR_GRAY,
     COLOR_DARK_GRAY, COLOR_LIGHT_GRAY, INFO_PANEL_X, INFO_PANEL_Y,
-    FONT_SIZE_LARGE, FONT_SIZE_MEDIUM, FONT_SIZE_SMALL, GAME_TITLE
+    FONT_SIZE_LARGE, FONT_SIZE_MEDIUM, FONT_SIZE_SMALL
 )
 
 
@@ -208,7 +208,8 @@ class Renderer:
         controls = [
             "← → : Move",
             "↓ : Soft Drop",
-            "↑/Z : Rotate",
+            "↑/Z : Rotate CCW",
+            "X : Rotate CW",
             "Space : Hard Drop",
             "P : Pause",
             "R : Restart",
