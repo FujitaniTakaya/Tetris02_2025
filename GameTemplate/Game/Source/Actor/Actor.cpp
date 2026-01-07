@@ -1,6 +1,15 @@
 #include "stdafx.h"
 #include "Actor.h"
 
-Actor::Actor()
+namespace nsApp
 {
+	namespace nsActor
+	{
+		Actor::Actor()
+		{
+		}
+		Actor::~Actor()
+		{
+		}
+	}
 }
